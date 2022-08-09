@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
-const borderWidth = 3;
-const margin = 1;
+const borderWidth = 0;
+const margin = 0;
 const maxContainerHeight = 100;
 const Styles = StyleSheet.create({
   container: {
@@ -23,9 +23,8 @@ const Styles = StyleSheet.create({
   icon: {
     alignItems: 'center',
     borderRadius: maxContainerHeight / 2,
-    borderWidth: 2,
+    borderWidth,
     justifyContent: 'center',
-    marginVertical: -borderWidth,
   },
 });
 

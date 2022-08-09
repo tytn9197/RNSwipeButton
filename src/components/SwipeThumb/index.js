@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 
 // Styles
-import styles, { borderWidth, margin } from './styles';
+import styles from './styles';
 
 // Constants
 import { TRANSPARENT_COLOR } from '../../constants';
@@ -18,7 +18,7 @@ const DEFAULT_ANIMATION_DURATION = 400;
 const RESET_AFTER_SUCCESS_DEFAULT_DELAY = 1000;
 
 const SwipeThumb = props => {
-  const paddingAndMarginsOffset = borderWidth + 2 * margin;
+  const paddingAndMarginsOffset = 2;
   var defaultContainerWidth = 0;
   if (props.thumbIconWidth == undefined) {
     defaultContainerWidth = props.thumbIconHeight;
